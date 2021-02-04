@@ -22,6 +22,7 @@ tags:
 
 ::: feature Getting Started
 * [PC Modding](./pc-modding.md)
+* [Linux Modding](./linux-modding.md)
 * [Quest Modding](./quest-modding.md)
 * [Common Problems](./support/)
 * [Grips and Tricks](./grips-and-tricks.md)

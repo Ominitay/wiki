@@ -11,6 +11,71 @@ It is very similar to a Windows install, but you will need some workarounds.
 Using mods in Linux isn't supported by mod developers, so you might encounter bugs!
 :::
 
+### Using ShellSaber
+
+::: danger
+**Run the game at least once** before trying to mod the game! This applies to reinstalling your game too.
+:::
+
+1. Download the ShellSaber installer from the [GitHub repository](https://github.com/Ominitay/ShellSaber/releases).
+
+2. Run `shaber-install`.
+
+```
+$ chmod +x shaber-install
+$ ./shaber-install
+Welcome to the ShellSaber installer!
+Version: shaber-0.2.2
+Extracted archive.
+Installed ShellSaber.
+Installation complete!
+```
+
+3. Copy the default config file from `~/.local/share/shaber/default/config` to `~/.config/shaber/config`, and change the version and directory to match your configuration. This will ensure that your config is accurate and won't be overwritten by updates.
+
+4. Download BSIPA.
+
+```
+$ shaber ipa dl
+Info: Searching for dependencies
+Info: Downloading mod 'BSIPA'
+Info: Checking integrity of mod 'BSIPA'.
+Info: Mod 'BSIPA' passed integrity check.
+Info: Enabled 'BSIPA'
+Info: Downloading native Linux IPA
+Info: Native Linux IPA successfully downloaded
+Info: Native Linux IPA successfully enabled
+```
+
+5. Patch Beat Saber with BSIPA.
+```
+$ shaber ipa patch
+Info: All checks passed, continuing to patch...
+Info: Beat Saber has been successfully patched with native BSIPA.
+```
+
+6. Download mods you want to use (multiple may be downloaded at once).
+```
+$ shaber mod download BeatSaverDownloader
+Info: Searching for dependencies
+Info: Downloading dependency 'SongCore'
+...
+Info: Downloading mod 'BeatSaverDownloader'
+Info: Checking integrity of mod 'BeatSaverDownloader'.
+Info: Mod 'BeatSaverDownloader' passed integrity check.
+```
+
+7. Enable your mods with the command `shaber mod enable [MOD NAMES HERE]`.
+```
+$ shaber mod enable BeatSaverDownloader
+Info: Enabled 'SongCore'
+...
+Info: Enabled 'BeatSaverDownloader'
+Info: Mod 'BeatSaverDownloader' set as explicit.
+```
+
+8. Your mods should now be installed!
+
 ### Using Beataroni
 
 ::: danger

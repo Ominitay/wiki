@@ -18,7 +18,7 @@ Beat Saber natively supports custom songs, so if that's all you're looking for, 
 ::: warning
 This guide is for PC-modding on Windows.  
 If you have a Quest, see the [Quest Modding page](/quest-modding.md).  
-If you're on Linux, check out the [Linux page](/modding/linux.md) or [QBeat](https://github.com/geefr/beatsaber-linux-goodies/blob/master/README.md)
+If you're on Linux, check out the [Linux Modding page](/linux-modding.md).
 :::
 
 If you run into problems at any point, please head to the [support page](./support) and see if you can identify what went wrong before asking in the Discord server. Chances are, your answer is on that page!
